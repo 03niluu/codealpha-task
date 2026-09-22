@@ -27,8 +27,10 @@ The gallery includes **Cars, Bikes, and Cycles**, with category-based filtering 
 ```text
 Vehicle-Canvas/
 │
-├── html/
-│   └── index.html
+├── index.html
+├── CNAME
+├── README.md
+├── .gitignore
 │
 ├── css/
 │   └── style.css
@@ -36,23 +38,17 @@ Vehicle-Canvas/
 ├── javascript/
 │   └── gallery.js
 │
-├── images/
-│   ├── img1.jpg
-│   ├── img2.jpg
-│   ├── ...
-│   ├── pht1.jpg
-│   ├── pht2.jpg
-│   ├── ...
-│   └── cyc2.jpg
-│
-└── README.md
+└── images/
+    ├── cars/
+    ├── bikes/
+    └── cycles/
 ```
 
 ## 🚀 How to Run
 
 1. Download or clone this repository.
-2. Make sure the `html`, `css`, `javascript`, and `images` folders maintain the same structure.
-3. Open `html/index.html` in a web browser.
+2. Make sure the `css`, `javascript`, and `images` folders maintain the same structure as shown above.
+3. Open `index.html` in a web browser.
 4. Use the category buttons to filter vehicles.
 5. Click an image to open the image viewer.
 6. Use the previous and next buttons to navigate through images.
